@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    background-color: #B22222;
+    box-shadow: 60px -16px teal;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.header .logo{
+    max-height: 32px;
+}
+
+.header .titles-group{
+    padding-right: 15px;
+}
