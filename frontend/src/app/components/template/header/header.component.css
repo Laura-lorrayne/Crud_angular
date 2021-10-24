@@ -1,22 +1,23 @@
-.header{
+.header {
     display: flex;
     align-items: center;
-    flex-direction: row !important;
-    background-color: #B22222;
-    box-shadow: 60px -16px teal;
 }
 
 .header a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    
+    color: #333;
 }
 
-.header .logo{
+.header .logo {
     max-height: 32px;
 }
 
-.header .titles-group{
-    padding-right: 15px;
+.header .title-group {
+    padding-left: 25px;
+}
+
+.header .title-group i {
+    padding-right: 5px;
 }
